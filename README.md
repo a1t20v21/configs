@@ -50,3 +50,5 @@
 	- npm install -g neovim
 	- gem install neovim
 	- cargo install ripgrep
+19. Install CopyQ - Clipboard Manager
+    - https://github.com/hluk/CopyQ
