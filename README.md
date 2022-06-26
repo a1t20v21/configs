@@ -4,6 +4,7 @@
 3. Install Dropbox
 	- https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2020.03.04_amd64.deb
 	- sudo apt install ./dropbox_2020.03.04_amd64.deb
+	- sudo apt-get install python3-gpg
 4. Install git
 	- sudo apt-get install git
 5. Install tmux
@@ -40,8 +41,13 @@
 	- https://github.com/neovim/neovim/wiki/Building-Neovim
 17. Install pip3
  	- sudo apt-get -y install python3-pip
+18. Setup pyenv and python
+    - https://github.com/pyenv/pyenv-installer
+    - https://github.com/pyenv/pyenv#installation
+    - pyenv install 3.10.3
+    - pyenv global 3.10.3
 18. Neovim -
-	- pip3 install prettier
+	- npm install -g prettier
 	- pip3 install black
 	- pip3 install flake8
 	- cargo install stylua
@@ -49,6 +55,8 @@
 	- pip3 install pynvim
 	- npm install -g neovim
 	- gem install neovim
+    - gem install puppet-lint
 	- cargo install ripgrep
+    - fd-find - https://github.com/sharkdp/fd
 19. Install CopyQ - Clipboard Manager
     - https://github.com/hluk/CopyQ

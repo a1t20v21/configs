@@ -4,6 +4,9 @@ end
 rvm default
 load_nvm > /dev/stderr
 
+# pyenv
+pyenv init - | source
+
 # aliases
 alias work='cd ~/766F6E616765'
 alias repo-ops-terraform='cd ~/766F6E616765/ops-terraform'
