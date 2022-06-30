@@ -60,3 +60,9 @@
     - fd-find - https://github.com/sharkdp/fd
 19. Install CopyQ - Clipboard Manager
     - https://github.com/hluk/CopyQ
+20. Image manipulation (resize, rotate)
+    - nautilus --version
+    - sudo apt install imagemagick
+    - sudo apt install nautilus-image-converter
+    - nautilus -q (and right click on the image to see the menu options)
+
