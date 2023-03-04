@@ -27,6 +27,16 @@
     	- command curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
     	- curl -sSL https://get.rvm.io | bash
     	- rvm install ruby-3.1.2
+	```
+	libcrypto and openssl issues on Ubuntu 22 because it comes with latest openssl version and ruby-3* and ruby-2* depends on
+	previous versions of openssl
+
+	Fix:
+	wget http://debian.mirror.ac.za/debian/pool/main/o/openssl/libssl1.1_1.1.1o-1_amd64.deb
+	sudo dpkg -i libssl1.1_1.1.1o-1_amd64.deb
+	
+	rvm install ruby-3.1.2 --with-openssl-dir=$HOME/.rvm/usr
+	```
 
 11. Install NVM
 12. Install Node
