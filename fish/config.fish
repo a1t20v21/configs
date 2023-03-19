@@ -1,11 +1,10 @@
+set -U fish_greeting
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 rvm default
 load_nvm > /dev/stderr
-
-# pyenv
-pyenv init - | source
 
 # aliases
 alias work='cd ~/766F6E616765'

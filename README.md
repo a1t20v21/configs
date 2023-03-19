@@ -13,6 +13,7 @@
 	- sudo apt-add-repository ppa:fish-shell/release-3
 	- sudo apt update
 	- sudo apt install fish
+    - Setup [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish#installation)
 7. Install rust
 	- curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 	- fish_add_path $HOME/.cargo/bin
@@ -34,7 +35,7 @@
 	Fix:
 	wget http://debian.mirror.ac.za/debian/pool/main/o/openssl/libssl1.1_1.1.1o-1_amd64.deb
 	sudo dpkg -i libssl1.1_1.1.1o-1_amd64.deb
-	
+
 	rvm install ruby-3.1.2 --with-openssl-dir=$HOME/.rvm/usr
 	```
 
@@ -51,9 +52,8 @@
 	- https://github.com/neovim/neovim/wiki/Building-Neovim
 17. Install pip3
  	- sudo apt-get -y install python3-pip
-18. Setup pyenv and python
-    - https://github.com/pyenv/pyenv-installer
-    - https://github.com/pyenv/pyenv#installation
+18. Setup [pyenv](https://github.com/pyenv/pyenv#installation) and python
+    - omf install pyenv
     - pyenv install 3.10.3
     - pyenv global 3.10.3
 18. Neovim -
